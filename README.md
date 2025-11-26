@@ -80,21 +80,3 @@ N_BATCH=512
 N_GPU_LAYERS=20
 USE_MMAP=true
 USE_MLOCK=false
-
-## 🔑 .env Configuration
-
-### 🧠 Local model (llama.cpp)
-
-```env
-LLM_BACKEND=llamacpp
-MODEL_PATH=models/mistral-7b-instruct-v0.1.Q4_K_M.gguf
-
-EMBED_MODEL=sentence-transformers/all-MiniLM-L6-v2
-STORE_DIR=vectorstore
-
-# Performance tuning (optional)
-N_THREADS=8
-N_BATCH=512
-N_GPU_LAYERS=20
-USE_MMAP=true
-USE_MLOCK=false
