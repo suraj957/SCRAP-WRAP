@@ -1,0 +1,21 @@
+streamlit
+python-dotenv
+
+# Scraping
+requests
+beautifulsoup4
+trafilatura
+pypdf
+
+# RAG stack
+langchain
+langchain-community
+sentence-transformers
+faiss-cpu
+
+# Local LLM (optional; comment out if using OpenAI)
+llama-cpp-python>=0.2.57
+
+# If using OpenAI instead of llama.cpp:
+# langchain-openai
+
