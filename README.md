@@ -91,6 +91,9 @@ USE_MLOCK=false
 
 ---
 
+
+---
+
 LLM_BACKEND=openai
 OPENAI_API_KEY=sk-your-key-here
 OPENAI_MODEL=gpt-4o-mini
@@ -100,10 +103,14 @@ STORE_DIR=vectorstore
 
 ---
 
+---
+
 ## 🏃‍♀️ Running the App
 
 ```bash
 streamlit run app.py
+
+---
 
 ---
 ## 💬 How to Use
@@ -112,24 +119,25 @@ streamlit run app.py
 - Paste any webpage or PDF link in the sidebar  
 - Click **Embed**  
 - The content is scraped, cleaned, chunked, embedded, and saved locally in `vectorstore/`
-
 ---
 
+
+---
 ### **2. Ask Questions**
 - Type your question in the chat input field  
 - The model returns **streaming responses** in real-time  
 - Every message is automatically stored in `chat.db`
-
 ---
 
+---
 ### **3. Manage Chat History**
 - Create **new chat threads**  
 - Switch between different conversations  
 - Rename or delete previous chats  
 - Each chat is maintained separately and linked to its own URL index
-
 ---
 
+---
 ## ⚡ Performance Tips
 
 | Area | Recommendation |
@@ -144,6 +152,8 @@ streamlit run app.py
 
 ---
 
+---
+
 ## 🧱 Key Components
 
 | File | Description |
@@ -155,6 +165,7 @@ streamlit run app.py
 
 ---
 
+---
 ## 🧠 Useful Commands
 ```bash
 # Rebuild all indexes
@@ -165,6 +176,7 @@ rm chat.db
 
 # Upgrade dependencies
 pip install -r requirements.txt --upgrade
+---
 
 ---
 
@@ -182,7 +194,11 @@ faiss-cpu
 llama-cpp-python>=0.2.57
 pypdf
 trafilatura
+---
+
+---
 
 ## 🧾 License
 MIT © 2025 — Built for local knowledge retrieval and experimentation.
 Made with ❤️ using Streamlit + LangChain.
+---
