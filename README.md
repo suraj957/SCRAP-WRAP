@@ -31,7 +31,7 @@ Built with **Streamlit**, **LangChain**, **FAISS**, and **SQLite** for persisten
 
 ---
 
-## ⚙️ Installation
+## ⚙️ Installations
 
 ```bash
 # 1. Clone the repository
